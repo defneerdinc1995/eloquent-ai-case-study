@@ -1,16 +1,15 @@
-**Eloquent AI — Agent Deployment Manager Take-Home
-**
+**Eloquent AI — Agent Deployment Manager Take-Home**
+
 **Prepared by: Defne Erdinc**
 
-**Project Overview
-**
+**Project Overview**
 This repository contains the implementation for Part B of the Eloquent AI Agent Deployment Manager Take-Home Case Study.
 
 The full assignment consists of two deliverables:
 
 **Part A — ITM Transaction Automation:** A separate PDF report covering discovery questions, operator design, validation, deployment strategy, assumptions, and design decisions.
 
-**Part B — Reference Interface Implementation: **A web-based ITM Operations Dashboard demonstrating transaction management, dashboard metrics, and editable transaction details.
+**Part B — Reference Interface Implementation:** A web-based ITM Operations Dashboard demonstrating transaction management, dashboard metrics, and editable transaction details.
 
 **Live Application**
 
@@ -58,7 +57,7 @@ The application uses synthetic transaction data and does not connect to a real b
 
 **Running the Project Locally**
 
-**Step 1 — ** Clone the repository
+**Step 1 —** Clone the repository
 
 git clone https://github.com/defneerdinc1995/eloquent-ai-case-study.git
 
@@ -66,11 +65,11 @@ git clone https://github.com/defneerdinc1995/eloquent-ai-case-study.git
 
 cd eloquent-ai-case-study
 
-**Step 3 — **Start a local development server
+**Step 3 —** Start a local development server
 
 python3 -m http.server 8000
 
-**Step 4 — **Open the application
+**Step 4 —** Open the application
 
 Visit http://localhost:8000 in your browser.
 
@@ -110,4 +109,4 @@ The application and documentation should be reviewed and validated against the o
 
 **Author:** Defne Erdinc
 
-**Project: **Eloquent AI — Agent Deployment Manager Take-Home Case Study
+**Project:** Eloquent AI — Agent Deployment Manager Take-Home Case Study
