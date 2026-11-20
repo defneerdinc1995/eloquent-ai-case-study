@@ -101,12 +101,6 @@ The original reference interface was unavailable during implementation.
 
 As a result, this application is a functional alternative implementation rather than a verified pixel-perfect reproduction. Its visual design, interactions, and KPI calculations have not been confirmed to match the original reference exactly.
 
-**AI Tools Disclosure**
-
-AI-assisted tools were used to support solution development, frontend implementation, and documentation.
-
-The application and documentation should be reviewed and validated against the original assignment requirements before final submission.
-
 **Author:** Defne Erdinc
 
 **Project:** Eloquent AI — Agent Deployment Manager Take-Home Case Study
