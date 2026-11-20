@@ -1,35 +1,113 @@
-# Eloquent AI — Agent Deployment Manager Take-Home
+**Eloquent AI — Agent Deployment Manager Take-Home
+**
 **Prepared by: Defne Erdinc**
-This repository contains two deliverables:
 
-- **Part A — ITM transaction automation design:** [Read the PDF](ITM_Automation_Design.pdf).
-- **Part B — ITM Operations web demo:** [Open the website](https://defneerdinc1995.github.io/eloquent-ai-case-study/).
+**Project Overview
+**
+This repository contains the implementation for Part B of the Eloquent AI Agent Deployment Manager Take-Home Case Study.
 
-## The web demo
+The full assignment consists of two deliverables:
 
-The frontend is a static, dependency-free HTML/CSS/JavaScript application with synthetic ITM transactions, dashboard metrics, filter/search, and editable detail views for the first five rows. Saving edits recalculates KPIs and persists changes in the browser's `localStorage`. This is a demo and is **not connected to a banking system**.
+**Part A — ITM Transaction Automation:** A separate PDF report covering discovery questions, operator design, validation, deployment strategy, assumptions, and design decisions.
 
-## Run locally
+**Part B — Reference Interface Implementation: **A web-based ITM Operations Dashboard demonstrating transaction management, dashboard metrics, and editable transaction details.
 
-The hosted site runs directly from the repository root using `index.html`, `styles.css`, `app.mjs`, and `data.mjs`. To serve locally, run a basic HTTP server in this directory, for example:
+**Live Application**
 
-```sh
+**Hosted Website:**
+
+https://defneerdinc1995.github.io/eloquent-ai-case-study/
+
+**GitHub Repository:**
+
+https://github.com/defneerdinc1995/eloquent-ai-case-study
+
+**Features**
+
+The application includes:
+
+ITM transaction dashboard with calculated KPIs
+
+Transaction search and filtering
+
+Transaction details and status information
+
+Editable detail views for the first five transaction rows
+
+KPI recalculation following saved changes
+
+Data consistency between detail and dashboard views
+
+Browser-based data persistence using localStorage
+
+Responsive interface for desktop and mobile devices
+
+**Tech Stack**
+
+HTML5
+
+CSS3
+
+JavaScript (ES Modules)
+
+Browser localStorage
+
+GitHub Pages for hosting
+
+The application uses synthetic transaction data and does not connect to a real banking system.
+
+**Running the Project Locally**
+
+**Step 1 — ** Clone the repository
+
+git clone https://github.com/defneerdinc1995/eloquent-ai-case-study.git
+
+**Step 2 —** Navigate to the project directory
+
+cd eloquent-ai-case-study
+
+**Step 3 — **Start a local development server
+
 python3 -m http.server 8000
-```
 
-Then open <http://localhost:8000>.
+**Step 4 — **Open the application
 
-## GitHub Pages setup
+Visit http://localhost:8000 in your browser.
 
-1. Upload the **contents** of this package to the repository root of the `main` branch (not the ZIP file).
-2. Go to **Settings → Pages**.
-3. In **Build and deployment**, choose **Deploy from a branch**. Select **main** and **/(root)**, then click **Save**.
-4. After GitHub reports deployment success, open https://defneerdinc1995.github.io/eloquent-ai-case-study/ .
+No additional packages or environment variables are required.
 
-## Important limitation
+**Project Structure**
 
-The supplied reference at <https://project-eloquentcasestudy.magicpatterns.app/> was unavailable during implementation. The website is a functioning **alternative UI using synthetic data**, not a verified pixel-perfect copy and not formula-verified against the original. To fully meet Part B's requirements, inspect the original reference and adjust layouts, interactions, fixture data, and KPI formulas. Do not misrepresent the site as an exact reproduction.
+index.html — Main application entry point
 
-## AI-use disclosure
+styles.css — Application styling and responsive layout
 
-AI tools were used to draft the design and generate the demo code and documentation. Review and verify assumptions, tests, and styling before final submission.
+app.mjs — UI rendering, navigation, and user interactions
+
+data.mjs — Synthetic transaction data, KPI calculations, and validation
+
+README.md — Project documentation
+
+**Implementation Notes**
+
+The application demonstrates transaction data management through a browser-based interface.
+
+Transaction edits are stored locally in the user's browser. Saved changes update the displayed transaction information and relevant dashboard metrics.
+
+The application does not perform actual financial transactions or communicate with banking APIs.
+
+**Reference Implementation Limitations**
+
+The original reference interface was unavailable during implementation.
+
+As a result, this application is a functional alternative implementation rather than a verified pixel-perfect reproduction. Its visual design, interactions, and KPI calculations have not been confirmed to match the original reference exactly.
+
+**AI Tools Disclosure**
+
+AI-assisted tools were used to support solution development, frontend implementation, and documentation.
+
+The application and documentation should be reviewed and validated against the original assignment requirements before final submission.
+
+**Author:** Defne Erdinc
+
+**Project: **Eloquent AI — Agent Deployment Manager Take-Home Case Study
