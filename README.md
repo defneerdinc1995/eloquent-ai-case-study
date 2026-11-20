@@ -1,5 +1,5 @@
 # Eloquent AI — Agent Deployment Manager Take-Home
-
+**Prepared by: Defne Erdinc**
 This repository contains two deliverables:
 
 - **Part A — ITM transaction automation design:** [Read the PDF](ITM_Automation_Design.pdf).
